@@ -70,7 +70,7 @@ Install dependencies: bash pip install -r requirements.txt
 
 Navigate to source bash cd source
 # Ppt
-Link:
+Link: https://1drv.ms/b/c/b9e4a30272d9f264/EQXAuFrTwGhEtHCtYovwqlUBITru27svqypA5BfJECTCxg?e=jzbVVr
 
 
 # Paper
@@ -78,3 +78,6 @@ Link:
 
 # Youtube video
 Link:
+
+#Demo vidoe
+Link:https://1drv.ms/v/c/b9e4a30272d9f264/Edv0Z3ZuxsVOuOPr9RRSIKgBBQCNXzZUzKJHdtnGl9M5yg?e=G1eUya
