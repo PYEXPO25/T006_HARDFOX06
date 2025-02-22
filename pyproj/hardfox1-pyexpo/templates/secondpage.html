@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    body{
+    background-color: #021024;
+    background: linear-gradient(to right,#021024,#5483b3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 200vh;
+    }
+    .top-rectangle {
+    width: 100%;
+    height: 100px; /* Adjust the height as needed */
+    background-color: #ffffff; /* Blue background for rectangle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    }
+    .content {
+    margin-top: 120px; /* Add space so content doesn't overlap with fixed header */
+    padding: 20px;
+    }
+    .font{
+        color: #ffffff;
+    }
+    .logo{
+    height: 90px;
+    width: 100px;
+    position: absolute;
+    left: 10px;
+    top:8px;
+    }
+    .temperature{
+    height: 50px;
+    width: 80px;
+    position: absolute;
+    left: 1170px;
+    top: 25px;
+    }
+    .ph{
+    height: 55px;
+    width: 55px;
+    position: absolute;
+    left: 1250px;
+    top: 24px;
+    }
+    .humidity{
+    height: 75px;
+    width: 70px;
+    position: absolute;
+    left: 1302px;
+    top: 15px;
+    }
+    .waterlevel{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 1180px;
+    top: 28px;
+    }
+    .cooler{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: 1090px;
+    top: 23px;
+    }
+    .secondpage{
+    color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 45px;
+    font-style: italic;
+    top: 45px;
+    position: absolute;
+    top: 130px;  /* Moves text 50px from the top */
+    left: 70px; /* Moves text 100px from the left */
+    }
+    .firstline{
+    font: optional;
+    position: absolute;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-display: swap;
+    font-size: 80px;
+    font-style: italic;
+    top: 100px;
+    display: inline-block;
+    opacity: 0; /* Start hidden */
+    transform: translateX(-50px); /* Start position (left) */
+    animation: moveText 2s ease-in-out forwards;
+    }
+    @keyframes moveText {
+        from {
+            opacity: 0;
+            transform: translateX(-50px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+        }
+    .secondline{
+    font: optional;
+    position: absolute;
+    color: 	#D3D3D3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    font-display: swap;
+    font-size: 20px;
+    font-style: normal;
+    top: 350px;
+    animation: moveWord 2s ease-in-out forwards;
+    }
+    @keyframes moveWord {
+        from {
+            opacity: 0;
+            transform: translateX(-50px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+        }
+    .rectangle-box {
+            width: 1000px;
+            height: 500px;
+            background-color: #ffffff; /* Box color */
+            border-radius: 20px; /* Curved corners */
+            position: absolute;
+            top: 500px;
+        }
+    .secondpicture{
+        width: 1000px;
+        height: 500px;
+        background-color: #ffffff; /* Box color */
+        border-radius: 20px; /* Curved corners */
+        position: absolute;
+        
+    }
+    .headingofabout{
+        color: #ffffff;
+        width: 30px;
+        font-family: cursive;
+        font-style: oblique;
+        position: absolute;
+        top: 1000px;
+        left: 650px;
+    }
+    .about{
+        color: #ffffff;
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: absolute;
+        top: 1100px;
+        position: absolute;
+        left: 40px;
+    }
+    .rectangle{
+        width: 1000px;
+        height: 500px;
+        border-radius: 20px; /* Curved corners */
+        position: absolute;
+        top: 1120px;
+        left: 240px;
+        color: #ffffff;
+        font-size: large;
+    }
+    .contact{
+        color: #ffffff;
+        font-weight: bold;
+        position: absolute;
+        top: ;
+    }
+            
+</style>
+<body>
+    
+    <h1 class="firstline">&nbsp;&nbsp;&nbsp;Optimizing Every Drop,<br> Every Seed, Every Harvest.</h1>
+    <p class="secondline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The automated crop management is an advanced concept to the future. <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It may helps the youngsters to have this technology for their additional income.</p>
+    
+     <div class="rectangle-box"><img src="C:\Users\Aadil\OneDrive\Pictures\smartsystem\secondimage.jpg" class="secondpicture"></div>
+    <div class="aboutus">
+        <h2 class="headingofabout">ABOUTUS</h2>
+    </div>
+    <centre>
+    <div class="rectangle"><p>An About Us page exists to share a business’ story and history and provide a deeper connection with customers.
+
+        Consumers want to know the team behind the brand they are supporting. An About Us page provides the perfect real estate to pull back the curtain and reveal who is working behind the scenes.
+        
+        Most importantly, though, an About Us page facilitates trust between the consumer and the business.
+        
+        More than 90% of consumers say that “trust” is a core factor when deciding which businesses to support.
+        
+        With an About Us page, you can begin to form an emotional relationship with customers and engage with them on a deeper level.
+        
+        So how can you create one that resonates? Let’s look at some of the components you need to include in your About Us page.</p></centre>
+</div>
+    <h3 class="contact">CONTACT US</h3>
+    <p class="instagram"></p>
+    <div class="top-rectangle">
+        <a href="D:\pyproj\hardfox1-pyexpo\templates\secondpage.html"><img src="D:\Gemini_Generated_Image_n0ilmnn0ilmnn0il.jpeg"  class="logo"></a> 
+
+        <a href="D:\pyproj\hardfox1-pyexpo\templates\ph.html"><img src="C:\Users\Aadil\OneDrive\Pictures\smartsystem\temperature.jpg" class="ph"></a>
+        <a href="D:\pyproj\hardfox1-pyexpo\templates\humidity.html"><img src="D:\Gemini_Generated_Image_9ac5e49ac5e49ac5.jpeg" class="humidity"></a>
+        <a href="D:\pyproj\hardfox1-pyexpo\templates\waterlevel.html"><img src="D:\Simbol Tetes Air Bersih Eco Water Logo Templat untuk Unduh Gratis di Pngtree.jpeg" class="waterlevel"></a>
+        <a href="D:\pyproj\hardfox1-pyexpo\templates\cooler.html"><img src="D:\Premium Vector _ Defrost icon with arrows, vector.jpeg" class=cooler></a>
+         
+    </div>  
+    
+
+</body>
+
+</html>
