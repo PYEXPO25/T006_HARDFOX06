@@ -39,7 +39,7 @@ Frontend: HTML, CSS, JavaScript, ReactJS
 
 Backend: Flask, Django
 
-Database: MongoDB, MySQL
+Database: Firebase, MySQL
 
 Other Tools: Docker, Git, TensorFlow
 
